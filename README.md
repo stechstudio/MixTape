@@ -20,7 +20,7 @@ Now you can create a new Mixtape loader:
 $mixtape = new STS\Mixtape\Loader($autoloader);
 ```
 
-And from there you can call `replacePsr4($prefix, paths)` or `removePsr4($prefix)` to alert the loader.
+And from there you can call `replacePsr4($prefix, paths)` or `removePsr4($prefix)` to alter the loader.
 
 ```php
 $mixtape->replacePsr4('My\\Namespace', '/path/to/different/folder');
